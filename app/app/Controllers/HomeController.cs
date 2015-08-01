@@ -19,5 +19,11 @@ namespace app.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult Sign()
+        {
+            return View();
+        }
+
     }
 }
